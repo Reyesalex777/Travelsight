@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Camp = () => {
-  return (
-    <div>Camp</div>
-  );
-}
+  return <div>Camp</div>;
+};
 
-export default Camp
+export default Camp;

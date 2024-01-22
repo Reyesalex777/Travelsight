@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Guide = () => {
-  return (
-    <div>Guide</div>
-  );
-}
+  return <div>Guide</div>;
+};
 
-export default Guide
+export default Guide;
