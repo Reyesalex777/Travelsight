@@ -57,13 +57,10 @@ const Hero = () => {
             variant="btn_white_text"
           />
         </div>
-        <div
-          className="relative flex flex-1 item-start border-2
-border-blue-500"
-        >
+        <div className="relative flex flex-1 item-start border-2">
           <div
-            className="relative z-20 w-[268px] flex-col gap-8
-round-3x1 bg-green-90 px-7 py-8"
+            className="rounded-3xl relative z-20 w-[268px] flex-col gap-8
+            bg-green-90 px-7 py-8"
           >
             <div className="flex flex-col">
               <div className="flexBetween">
@@ -75,6 +72,10 @@ round-3x1 bg-green-90 px-7 py-8"
                 <div className="flex flex-col">
                   <p className="regular-16 vlock text-gray-20">Distance</p>
                   <p className="bold-20 text-white">123.45 mi.</p>
+                </div>
+                <div className="flex flex-col">
+                  <p className="regular-16 vlock text-gray-20">Elevation</p>
+                  <p className="bold-20 text-white">2.040 km</p>
                 </div>
               </div>
             </div>
