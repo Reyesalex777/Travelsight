@@ -6,8 +6,7 @@ const Hero = () => {
   return (
     <section
       className="max-container padding-container flex flex-col
-    gap-20 py-10 pb-32 mb:gap-28 lg:py-20 xl:flex-row border-2
-    border-blue-500"
+    gap-20 py-10 pb-32 md:gap-28 lg:py-20 xl:flex-row"
     >
       <div className="hero-map" />
 
@@ -15,17 +14,17 @@ const Hero = () => {
 
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-          src="/camp.svg"
+          src="/campicon.png"
           alt="camp"
           width={50}
           height={50}
           className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
         />
-        <h1 className="bold-52 lg:bold-88">Putuk Truno Camp Area</h1>
+        <h1 className="bold-52 lg:bold-88">Lower Bear Campground</h1>
         <p className="regualar-16 mt-6 text-gray-30 xl:max-w-[520px]">
-          we want to be on each of your journeys seeking the satisfaction of
+          We want to be on each of your journeys seeking the satisfaction of
           seeing the incorrupible beauty of nature. If you want to travel the
-          world, this is the app for you
+          world, Traverse is the app for you.
         </p>
         <div className="my-11 flex flex-wrap gap-5">
           <div className="flex items-center gap-2">
@@ -57,7 +56,7 @@ const Hero = () => {
             variant="btn_white_text"
           />
         </div>
-        <div className="relative flex flex-1 item-start border-2">
+        <div className="relative flex flex-1 item-start">
           <div
             className="rounded-3xl relative z-20 w-[268px] flex-col gap-8
             bg-green-90 px-7 py-8"
@@ -67,15 +66,15 @@ const Hero = () => {
                 <p className="regular-16 text-gray-20">Location</p>
                 <Image src="/close.svg" alt="close" width={24} height={24} />
               </div>
-              <p className="bold-20 text-white">Aguas Calientes</p>
+              <p className="bold-20 text-white">Bear Creek</p>
               <div className="flexBetween">
                 <div className="flex flex-col">
                   <p className="regular-16 vlock text-gray-20">Distance</p>
-                  <p className="bold-20 text-white">123.45 mi.</p>
+                  <p className="bold-20 text-white">17.9 mi.</p>
                 </div>
                 <div className="flex flex-col">
                   <p className="regular-16 vlock text-gray-20">Elevation</p>
-                  <p className="bold-20 text-white">2.040 km</p>
+                  <p className="bold-20 text-white">3,046 ft.</p>
                 </div>
               </div>
             </div>

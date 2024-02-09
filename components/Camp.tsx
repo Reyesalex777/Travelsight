@@ -22,15 +22,15 @@ const CampSite = ({
     >
       <div
         className="flex h-full flex-col items-start justify-between
-    p-6 lg:px-20 lg:py-10 border-2"
+    p-6 lg:px-20 lg:py-10"
       >
         <div className="flexCenter gap-4">
           <div className="rounded-full bg-green-50 p-4">
             <Image src="/folded-map.svg" alt="map" width={28} height={28} />
           </div>
           <div className="flex flex-col gap-1">
-            <h4 className="bold-18 text-white">{title}</h4>
-            <p className="regular-14 text-white">{subtitle}</p>
+            <h4 className="bold-18 text-white bg-inherit">{title}</h4>
+            <p className="regular-14 text-white bg-inherit">{subtitle}</p>
           </div>
         </div>
         <div className="flexCenter gap-6">
@@ -56,7 +56,7 @@ const CampSite = ({
 const Camp = () => {
   return (
     <section
-      className="border-2 2xl:max-container relative flex flex-col
+      className="2xl:max-container relative flex flex-col
       py-10 lg:mb-10 lg:py-20 xl:mb-20"
     >
       <div
@@ -65,14 +65,14 @@ const Camp = () => {
       >
         <CampSite
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuraun"
-          peopleJoined="50+ Joined"
+          title="Lower Bear Campground"
+          subtitle="Azusa, California"
+          peopleJoined="40+ Joined"
         />
         <CampSite
           backgroundImage="bg-bg-img-2"
           title="Mountain view Camp"
-          subtitle="Somewhere in the wilderness"
+          subtitle="Somewhere in canada"
           peopleJoined="50+ Joined"
         />
       </div>
@@ -82,7 +82,7 @@ const Camp = () => {
         relative w-full overflow-hidden rounded-3xl"
         >
           <h2 className="regular-24 md:regular-32 2xl:regular-64 capitalize text-white">
-            <strong>Feeling Lost</strong> And Not KNowing The Way?
+            <strong>Feeling Lost</strong> And Not Knowing The Way?
           </h2>
           <p className="regular-14 xl:regular-16 mt-5 text-white">
             Starting fromt the anxiety of the climbers when visiting a new

@@ -5,7 +5,7 @@ const Guide = () => {
   return (
     <section className="flexCenter flex-col">
       <div
-        className="border-2 border-red-500 padding-container
+        className="padding-container
     max-container w-full pb-24"
       >
         <Image src="/camp.svg" alt="camp" width={50} height={50} />
@@ -20,20 +20,17 @@ const Guide = () => {
             Guide you to Easy Path
           </h2>
           <p className="regular-16 text-gray-30 xl:max-w-[520px]">
-            Only with the hilink app you will no longer get lost and get lost
+            Only with the Traverse app you will no longer get lost and get lost
             again, because we already support offline maps when there is no
             internet connection in the field. Invite you friends, relatives and
-            friends to have fun in the wilderness through the valley and reach
-            the top of the Mountain
+            friends to have fun in the wilderness, ain't no valley too low and
+            no Mountain too high.
           </p>
         </div>
       </div>
-      <div
-        className="flexCenter max-container relative w-full
-        border-2 border-blue-500"
-      >
+      <div className="flexCenter max-container relative w-full">
         <Image
-          src="/boat.png"
+          src="/kayakfishing.jpg"
           alt="boat"
           width={1440}
           height={580}
@@ -51,16 +48,14 @@ const Guide = () => {
             <div className="flex w-full flex-col">
               <div className="flexBetween w-full">
                 <p className="regular-16 text-gray-20">Destination</p>
-                <p className="bold-16 text-green-50">48 min</p>
+                <p className="bold-16 text-green-50">1hr 22 min</p>
               </div>
-              <p className="bold-20 mt-2">Aguas Calientes</p>
+              <p className="bold-20 mt-2">Lower Bear Creek</p>
             </div>
 
             <div className="flex w-full flex-col">
               <p className="regular-16 mt-2 text-gray-20">Start Track</p>
-              <h4 className="bold-20 mt-2 whitespace-nowrap">
-                Wonorejo Pasuruan
-              </h4>
+              <h4 className="bold-20 mt-2 whitespace-nowrap">Long Beach</h4>
             </div>
           </div>
         </div>
